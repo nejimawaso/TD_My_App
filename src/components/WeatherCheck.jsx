@@ -3,7 +3,7 @@ import React, { useState,useEffect } from 'react';
 
 const WeatherCheck = () => {
 
-  const baseURL = "https://api.openweathermap.org/data/2.5/weather?q=Tokyo,JP&appid=96e6473896dcd62216871d8d8bcf6bec&lang=ja&units=metric";
+  const baseURL = "https://api.openweathermap.org/data/2.5/weather?q=Tokyo,JP&appid=APIキー";
   const [post, setPost] = useState(null);
 
   useEffect(() => {
